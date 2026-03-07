@@ -175,3 +175,23 @@ Precision, Recall and Confusion Matrix
 
 -Visualization of confusion matrix by heatmap
 
+
+
+## Model Prediction for single audio file
+
+1. model load, libraries load
+2. audio preprocessing (function which process the audio (gives the X_test))
+  --- before feeding the new file to the model we have to preprocess the file in the same format as our model is trained
+  it's the same concept of standardization in the linear regression project where we use scaler for the new prediction
+  before giving it to the model
+
+3. we will get out X_test which will have chunks in it in(mel's) in np.array format
+
+4. Model prediction function (func which takes X_test)
+-- takes the X_test
+-- predicts the y_pred(classes in hot encoding)
+-- np.argsmax use to find index for each mel
+-- find the unique elements and their counts
+-- find the unique element having maximum count
+-- returning the index of max count
+-- accessing class of returned index from classes

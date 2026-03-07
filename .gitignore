@@ -183,3 +183,4 @@ cython_debug/
 #folder
 genres_original/
 images_original/
+Trained_model.h5

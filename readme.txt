@@ -195,3 +195,35 @@ Precision, Recall and Confusion Matrix
 -- find the unique element having maximum count
 -- returning the index of max count
 -- accessing class of returned index from classes
+
+----------------------end of jupyter use now -----------------------------------------
+
+now web app in vs code in the tf_env environment
+
+Web app by flask by me:
+home.html
+app.py
+
+
+this was a interesting phase integrating the model with the front end
+
+steps:
+
+learned through errors with the help of Gemini
+
+
+workflow:
+
+  made the basic html file
+  making the form
+  input the audio 
+
+  making the function which takes the audio from the form
+  preprocess the data through diff functions as we did in the test.ipynb
+  showing in the html with the help of place holder
+
+  i didn't knew the steps i just started find errors, corrected them and 
+  it made it
+
+  at last i made html file better by css and js for more interactive visuals by gemini
+

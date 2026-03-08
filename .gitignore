@@ -180,8 +180,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-#folder
+#folder and file while working
 genres_original/
 images_original/
 Trained_model.h5
 Test Music
+.vscode/
+test_model.py
